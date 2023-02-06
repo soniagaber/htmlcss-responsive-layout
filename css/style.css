@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 1px dashed darkred;
+}
+
+.container-centered{
+    width: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/*-----------------------------nav------------------------------------------------------------*/
+
+nav{
+    height: 100px;
+    background-color: #0084FD;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+}
+
+nav .container-centered{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    height: 60%;
+}
+
+nav i{font-size: 2em;
+color: white;}
+
+/*-----------------------------header---------------------------------------------------------*/
+
+/*-----------------------------main-----------------------------------------------------------*/
+
+/*---sezione strategic------------------------*/
+/*--------sez testimonials--------------------*/
+/*--------sez benefits------------------------*/
+/*----------sez about-------------------------*/
+/*------sez getstarted------------------------*/
+
+/*-----------------------------footer---------------------------------------------------------*/
