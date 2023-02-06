@@ -134,6 +134,27 @@ header{
     align-items: center;
 }
 /*--------sez benefits------------------------*/
+
+#benefits h2{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.flex-benefits{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-benefits .riquadro-header{
+    gap: 30px;
+    padding-bottom: 30px;
+    align-items: flex-start;
+}
+
+.flex-benefits .riquadro-header p{
+    text-align: left;
+}
 /*----------sez about-------------------------*/
 /*------sez getstarted------------------------*/
 
