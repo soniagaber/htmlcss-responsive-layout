@@ -117,6 +117,22 @@ header{
 }
 
 /*--------sez testimonials--------------------*/
+
+#testimonials{
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+#testimonials p{
+    text-align: center;
+}
+
+#flex-testimonials{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
 /*--------sez benefits------------------------*/
 /*----------sez about-------------------------*/
 /*------sez getstarted------------------------*/
