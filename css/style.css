@@ -311,3 +311,85 @@ footer p{
         flex-direction: row;
     }
 }
+
+
+
+@media screen and (min-width:769px){
+    .container-centered{
+        max-width: 750px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #flex-header{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    #flex-header .riquadro-header:nth-of-type(2){
+        width: calc(100% / 3 - (15px /2));
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #flex-header .riquadro-header:first-of-type{
+        width: calc(100% / 3 * 2 - (15px /2));
+    }
+
+    #flex-header .riquadro-header:nth-of-type(3) {
+        width: calc(100% / 3 - (15px *2/3));
+    }
+
+    #flex-header .riquadro-header:nth-of-type(4) {
+        width: calc(100% / 3 - (15px *2/3));
+    }
+
+    #flex-header .riquadro-header:nth-of-type(5) {
+        width: calc(100% / 3 - (15px *2/3));
+    }
+
+    #flex-riquadro-header{
+        flex-direction: row;
+    }
+#flex-strategic{
+    display: flex;
+    gap:40px;
+    flex-direction: row;}
+
+    #strategic-planning{
+        width: 40%;
+    }
+
+    #app-development{
+        width: 40%;
+    }
+
+    #testimonials .flex-icona-h2-lorem{
+        flex-direction: row;
+    }
+
+    #flex-benefits{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    #flex-benefits .riquadro-header{
+        width: calc(100% / 3 - ( 15px * 2/3));
+    }
+
+    #aboutus-flex{
+        gap: 40px;
+        flex-direction: row;
+    }
+
+    #getstarted .container-centered,
+    footer .container-centered{
+        max-width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
