@@ -6,9 +6,9 @@
 }
 
 .container-centered{
-    width: calc(100% - 100px);
-    margin-left: 50px;
-    margin-right: 50px;
+    width: calc(100% - 80px);
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 /*-----------------------------nav------------------------------------------------------------*/
@@ -77,8 +77,8 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 45px;
-    margin-bottom: 45px;
+    gap: 42px;
+    margin-bottom: 42px;
 }
 
 .flex-icona-h2-lorem p{
@@ -88,6 +88,34 @@ header{
 /*-----------------------------main-----------------------------------------------------------*/
 
 /*---sezione strategic------------------------*/
+
+#strategic{
+    background-color: #9792E4;
+}
+
+#strategic-planning img{
+    width: 100%;
+    margin-top: 65px;
+    margin-bottom: 80px;
+}
+
+#strategic-planning h2{
+    margin-bottom: 60px;
+}
+
+#strategic-planning p{
+    margin-bottom: 45px;
+}
+
+#app-development{
+    background-color: white;
+    border-radius: 50px;
+}
+
+#app-development i{
+    margin-bottom: 35px;
+}
+
 /*--------sez testimonials--------------------*/
 /*--------sez benefits------------------------*/
 /*----------sez about-------------------------*/
