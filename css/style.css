@@ -156,6 +156,29 @@ header{
     text-align: left;
 }
 /*----------sez about-------------------------*/
+
+#aboutus{
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+#aboutus h2{
+    margin-bottom: 45px;
+}
+
+#aboutus p{
+    margin-bottom: 45px;
+}
+
+#aboutus-img img{
+    border-radius: 50%;
+    width: 55%;
+    margin-bottom: 20px;
+}
+
+#aboutus-img p{
+    margin-bottom: 20px;
+}
 /*------sez getstarted------------------------*/
 
 /*-----------------------------footer---------------------------------------------------------*/
