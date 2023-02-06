@@ -123,6 +123,10 @@ header{
     padding-bottom: 55px;
 }
 
+#testimonials .riquadro-header{
+    background-color: #9792E4;
+}
+
 #testimonials p{
     text-align: center;
 }
@@ -133,7 +137,12 @@ header{
     gap: 40px;
     align-items: center;
 }
+
 /*--------sez benefits------------------------*/
+
+#benefits{
+    background-color: #9792E4;
+}
 
 #benefits h2{
     margin-top: 60px;
@@ -141,18 +150,19 @@ header{
     text-align: center;
 }
 
-.flex-benefits{
+#flex-benefits{
     display: flex;
     flex-direction: column;
 }
 
-.flex-benefits .riquadro-header{
+#flex-benefits .riquadro-header{
     gap: 30px;
     padding-bottom: 30px;
     align-items: flex-start;
+    background-color: white;
 }
 
-.flex-benefits .riquadro-header p{
+#flex-benefits .riquadro-header p{
     text-align: left;
 }
 /*----------sez about-------------------------*/
@@ -189,6 +199,7 @@ header{
 #getstarted{
     padding-top: 60px;
     padding-bottom: 45px;
+    background-color: #9792E4;
 }
 
 #getstarted-flex{
@@ -232,4 +243,71 @@ footer p:first-of-type{
 
 footer p{
     text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/*---------------------------MEDIA QUERIES_________________________________________________*/
+
+@media screen and (min-width:577px) and (max-width:768px){
+    .container-centered{
+        width: calc(100% - 40px);
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #flex-header{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    #flex-header .riquadro-header:nth-of-type(2){
+        width: calc(100% / 3 - (15px /2));
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #flex-header .riquadro-header:first-of-type{
+        width: calc(100% / 3 * 2 - (15px /2));
+    }
+
+    #flex-header .riquadro-header:nth-of-type(3) {
+        width: calc(100% / 3 - (15px *2/3));
+    }
+
+    #flex-header .riquadro-header:nth-of-type(4) {
+        width: calc(100% / 3 - (15px *2/3));
+    }
+
+    #flex-header .riquadro-header:nth-of-type(5) {
+        width: calc(100% / 3 - (15px *2/3));
+    }
+
+    #testimonials .flex-icona-h2-lorem{
+        flex-direction: row;
+    }
+
+    #flex-benefits{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    #flex-benefits .riquadro-header{
+        width: calc(100% / 2 - ( 15px / 2));
+    }
+
+    #aboutus-flex{
+        gap: 40px;
+        flex-direction: row;
+    }
 }
