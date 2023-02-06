@@ -179,6 +179,46 @@ header{
 #aboutus-img p{
     margin-bottom: 20px;
 }
+
+#aboutus-flex{
+    display: flex;
+    flex-direction: column;
+}
 /*------sez getstarted------------------------*/
+
+#getstarted{
+    padding-top: 60px;
+    padding-bottom: 45px;
+}
+
+#getstarted-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#getstarted-flex p{
+    text-align: center;
+}
+
+#getstarted-flex h3{
+    margin-bottom: 25px;
+}
+
+#getstarted-flex p:first-of-type{margin-bottom: 35px;}
+
+#getstarted-flex p:nth-of-type(2){
+    margin-bottom: 30px;
+}
+
+#getstarted-flex p:nth-of-type(3){
+    margin-bottom: 25px;
+}
+
+#getstarted-flex button{
+    margin-bottom: 25px;
+}
+
+#getstarted-flex
 
 /*-----------------------------footer---------------------------------------------------------*/
